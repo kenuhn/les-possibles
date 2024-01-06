@@ -1,0 +1,411 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+main {
+    max-width: 1300px;
+}
+
+h2{
+    font-size:calc(20px + 2.5vw);
+    font-weight: 600;
+}
+
+h3 {
+    font-size: calc(10px + 1.5vw);
+}
+
+h4{
+    font-weight: 500;
+    font-size: calc(10px + 1vw);
+}
+
+p {
+    font-size: calc(1px + 1.5vw);
+}
+
+span {
+    font-weight: 700;
+
+}
+a 
+{ 
+    text-decoration: none;
+    color: black;
+}
+button {
+    background-color: #ED9473;
+    border: 0;
+    border-radius: 10px !important ;
+
+    width: 180px;
+    height: 40px;
+    font-weight: 500;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 30vw;
+}
+
+.custom-header {
+    background-color: #ffffff; /* Fond blanc */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre en bas */
+  }
+
+.crash_highlited{
+    background-image: url('../img/crash_highlited.png');
+     background-size: 250px 35px;  
+    background-position: 10px left;
+    background-repeat: no-repeat;
+} 
+.slanted_highlight{
+
+    background:  linear-gradient(
+     to bottom, 
+     transparent 60%,
+     #ED9473 40%
+    );
+ }
+ 
+
+.presVente {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vw;
+    width: 100%;
+    
+}
+
+.presVente_container {
+    
+    margin-top: 125px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    column-gap: 50px; 
+
+}
+
+.presVente_card_container{
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: space-between;
+
+}
+
+
+.presVente_img {
+    width: 30vw;
+}
+.presVente_img img{
+    width: 30vw;
+}
+
+.why{
+    margin: 50px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 100px 50px;
+
+}
+.why_container_text {
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    
+}
+
+.why_title {
+    text-align: center;
+    width: 100%;
+    height: min-content;
+}
+
+.why_item {
+    margin: 15px 0;
+}
+
+.why_list {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    height: 90%;
+}
+
+.avantage {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 100px 50px;
+    margin: 50px 0;
+
+}
+.avantage_container_text {
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    
+}
+
+.avantage_title {
+    text-align: center;
+    width: 100%;
+    height: min-content;
+}
+
+.avantage_item {
+    margin: 15px 0;
+}
+
+.avantage_list {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    height: 90%;
+}
+.avantage{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 4vw;
+
+     column-gap: 50px; 
+/*  column-gap: 6vw ; */
+}
+
+.avantage_container_text {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
+.avantage_title {
+    text-align: center;
+    width: 100%;
+}
+
+.avantage_list {
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.avantage_container_img {
+    text-align: center;
+}
+
+
+.contact {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_container {
+    width: 60%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.contact_title {
+    margin: 0;
+    display: flex;
+    flex-flow: column wrap;
+    width: 60%;
+    margin: 40px;
+}
+
+.contact_step {
+    font-size: x-large;
+}
+.contact_container {
+    border: solid 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 40vw;
+}
+
+.contact_container_title {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+
+
+.contact_container_title h2{
+    margin: 0;
+
+}
+
+.contact_container_title p{
+    margin: 0;
+}
+
+
+.contact_container_list {
+    width: 80%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+footer p {
+    font-size: calc(5px + 1vw);
+}
+
+.footer_container_start {
+    width: 40%;
+}
+.footer_container_end {
+    width: 40%;
+}
+
+
+@media screen and (min-width : 1300px) {
+    main {
+        margin: 0 auto
+
+    }
+
+    p {
+        font-size: 25px;
+    }
+    
+    .presVente_card_title {
+        font-size: 25px;
+        margin-bottom: 2vw;
+    }
+    .presVente_card_text {
+        font-size: 25px;
+        margin-bottom: 2vw;
+    }
+
+
+    .presVente_img {
+        width: 425px;
+    }
+    .presVente_img img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 725px) {    
+    
+p {
+    text-align: center;
+    font-size: calc(5px + 2vw);
+}
+
+h3 {
+    font-size:calc(20px + 2.5vw);
+    font-weight: 600;
+}
+
+.presVente_card_container{
+    width: 90%;
+    text-align: center;
+    row-gap: 50px;
+}
+.presVente_img {
+    width: 60vw;
+    margin-bottom:50px ;
+}
+.presVente_img img {
+    width: 100%;
+}
+
+
+.avantage {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-items: center;
+
+}
+.avantage_container_img {
+    width: 60vw;
+}
+
+.avantage_container_img img {
+    width: 100%;
+}
+
+.avantage_container_text {
+    width: 90%;
+}
+.presVente_container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+       font-size: calc(5px + 2vw);
+}
+.contact {
+    margin-bottom: 60px;
+}
+.contact_container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 400px;
+    padding: 4vw;
+    width: 85%;
+}
+
+.contact_title {
+    margin: auto 0;
+    margin-bottom: 50px;
+    width: 90%;
+    text-align: center;
+}
+.contact_container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+footer {
+    flex-flow: column wrap;
+    align-items: center;
+    flex-flow: space-between;
+    row-gap: 30px;
+    
+}
+.footer_container_start {
+    width: 70%;
+    text-align: center;
+}
+.footer_container_end {
+    width: 70%;
+}
+}
+
